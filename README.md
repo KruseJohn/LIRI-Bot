@@ -1,2 +1,2 @@
 # LIRI-Bot
-![Alt Text](./images/test.gif)
+![Alt Text](../images/test.gif)
