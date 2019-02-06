@@ -21,7 +21,7 @@ function switchCase() {
 
     switch (action) {
 
-        case "concert":
+        case "concert-this":
             bandsInTown();
             break;
 
@@ -29,11 +29,11 @@ function switchCase() {
             songInfo();
             break;
 
-        case "movie":
+        case "movie-this":
             movieInfo();
             break;
 
-        case "do":
+        case "do-what-it-says":
             randomTxt();
             break;
     }
@@ -76,8 +76,7 @@ function songInfo() {
 
         songSearch = process.argv.slice(3).join(" ");
 
-        console.log(songSearch);
-    }
+    };
 
     spotify.search({
         type: "track",
