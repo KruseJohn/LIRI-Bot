@@ -1,5 +1,3 @@
-# LIRI-Bot
-![Alt Text](https://github.com/KruseJohn/LIRI-Bot/blob/master/Images/test.gif)
 
 # LIRI Bot
 
@@ -11,7 +9,7 @@ To retrieve a listing of upcoming concerts from a specific band/artist enter:
 
 ``` node liri.js concert-this <enter in specific band/artist>```
 
-![concert-this command](images/concert.jpg)
+![concert-this command](https://github.com/KruseJohn/LIRI-Bot/blob/master/Images/concert.gif)
 
 To retrieve song info from your favorite track enter:
 
@@ -19,23 +17,23 @@ To retrieve song info from your favorite track enter:
 
 This will display 10 results of the song you requested...
 
-![spotify-this-song command](images/spotify.gif)
+![spotify-this-song command](https://github.com/KruseJohn/LIRI-Bot/blob/master/Images/spotify.gif)
 
 If no song is provided then the program will default to "The Sign" by Ace of Base.
 
   * In such a case, 10 results for "The Sign" will be displayed...
 
-![spotify-this-song default command](images/spotify-default.gif)
+![spotify-this-song default command](https://github.com/KruseJohn/LIRI-Bot/blob/master/Images/spotify-default.gif)
 
 To retrieve movie info from your favorite film enter:
 
 ``` node liri.js movie-this <enter movie name>```
 
-![movie-this command](images/movie.gif)
+![movie-this command](https://github.com/KruseJohn/LIRI-Bot/blob/master/Images/movie.gif)
 
 If no movie is provided then the program will output data for the movie 'Mr. Nobody.'
 
-![movie-this default command](images/movie-default.gif)
+![movie-this default command](https://github.com/KruseJohn/LIRI-Bot/blob/master/Images/movie-default.gif)
 
 Bonous command --- Using the fs Node package, LIRI will take the text stored inside of a file and use it to call one of LIRI's commands.
 
@@ -45,4 +43,4 @@ Bonous command --- Using the fs Node package, LIRI will take the text stored ins
 
 ``` node liri.js do-what-it-says```
 
-![do command](images/do.gif)
+![do command](https://github.com/KruseJohn/LIRI-Bot/blob/master/Images/do.gif)
