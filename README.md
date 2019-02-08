@@ -6,7 +6,7 @@
 LIRI (Language Interpretation and Recognition Interface) is a command line node app that takes in parameters and gives you back data. This app uses axios to retrieve data from Bands in Town, OMDB and Spotify. 
 
 
-#### To retrieve a listing of upcoming concerts from a specific band/artist enter:
+#### To retrieve an upcoming concert (earliest date) from a specific band/artist enter:
 
 ``` node liri.js concert-this <enter in specific band/artist>```
 
